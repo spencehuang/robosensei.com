@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Robosensei</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: .5cm;
+            line-height: 1.6;
+            margin: 50px;
+            background-color: #ff7c0a;
+        }
+        h1, h2 {
+            font-family:Arial, sans-serif;
+            color: #000000;
+            font-size: 2cm;
+        }
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            color: #000000;
+            font-size: 0.75cm;
+        }
+    
+
+        p1{
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+      
+        .component {
+            background: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            background: #a7a7a7;
+            text-align: center;
+            padding: 0px;
+            left:300;
+            top:0;
+            margin: 10px 0;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<!--comment-->
+<body style="margin-left: 350px">
+    <div class="sidebar">
+        <img src="img/Capture.PNG"width="220" height="150" border-radius = 10px>
+        <h></h>
+
+
+        <ul>
+            <li><a href="#motor">Motors</a></li>
+            <li><a href="#keys">Keypads</a></li>
+            <li><a href="#led">LED lights</a></li>
+            <li><a href="#Sensors">Sensors</a></li>
+            <li><a href="#microcomps">Microcompters</a></li>
+            <li><a href="#sound">Sound outputs</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#search">Explore</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="title">
+       <h1>- ROBOSENSEI - <img src="img/Capture.PNG"width="220" height="170" border-radius = 5px></h1>
+    
+        <p1></p1>
+    </div>
+    
+    <p>Welcome to Robosensei! This website is designed to introduce you to the fascinating world of robotics. Here, you will learn about key components that make up a robot and how to get started on your robotics journey!</p>
+    <p></p>
+    
+    
+    <section id="motor">
+    <div class="component">
+        <h2>Motors</h2>
+        <p>Motors are the driving force behind robot movement. They convert electrical energy into mechanical energy. Types include:</p>
+        <ul>
+            <li>DC Motors</li>
+            <p>A DC motor is an electrical motor that uses direct current (DC) to produce mechanical force. The most common types rely on magnetic forces produced by currents in the coils. It is the most common and simple motor of all.</p>
+            <img src="img/11dc.PNG"width="200" height="200">
+            <p>________________________________________________________________________</p>
+            <li>Servo Motors</li>
+            <p> A servo motor is a rotary actuator that allows for precise control of angular position, velocity, and acceleration in a mechanical system. It constitutes part of a servomechanism, and consists of a suitable motor coupled to a sensor for position feedback.</p>
+            <img src="img/servo.PNG"width="180" height="125">
+            <img src="img/servo1.jpg"width="242" height="200">
+
+            <p>________________________________________________________________________</p>
+            <li>Stepper Motors</li>
+            <p>The stepper motor has four polars. Also known as step motor or stepping motor, is a Brushless DC electric motor that rotates in a series of small and discrete angular steps.
+            </p>
+            <img src="img/stepper-motor-diagram.jpg"width="242" height="182">
+            <img src="img/stepper.jpg"width="242" height="200">
+
+            
+        </ul>
+    </div>
+    </section>
+    <section id="keys">
+    <div class="component">
+        <h2>Keypads</h2>
+        <p>Keypads are essential for user input in robotics. Sometimes they allow users to control the robot's actions. Common types include:</p>
+        <ul>
+            <li>4x4 Matrix Keypad:</li>
+            <p>They are essentially the numeric keypads we see on our keyboards.</p>
+            <img src="img/3224.jpg"width="160" height="120">
+            <p>________________________________________________________________________</p>
+            <li>Membrane Keypad</li>
+            <p>They serve the same purpose as the above, but it is a flat sheet with detector devices.</p>
+            <img src="img/43.jpg"width="160" height="120">
+            <p>________________________________________________________________________</p>
+            <p>Some common projects that include keypads would be: Games, security systems, and calculators</p>
+        </ul>
+    </div>
+    </section>
+    <section id="led">
+    <div class="component">
+        <h2>LEDs</h2>
+        <p>Light Emitting Diodes (LEDs) are used for visual feedback and output in robots. They can indicate status or alerts. Types include:</p>
+        <ul>
+            <li>Standard LEDs</li>
+            <p>They are individual single color LED lights that have two wiring legs, one is for voltage(+) and the other is for ground(-).</p>
+            <img src="img/led1000983.jpg"width="250" height="285">
+            <p>________________________________________________________________________</p>
+            <li>Addressable LEDs</li>
+            <p>They LED light strips that are commonly used for decoration purposes on the robot.</p>
+            <img src="img/1by1.jpg"width="160" height="160">
+            <p>________________________________________________________________________</p>
+            <li>Ring LEDs</li>
+            <p>The LEDs shape into a ring providing stronger lighting and the ability to only light up a designated few. Commonly used to show an amount of something.</p>
+            <img src="img/ring485_364.jpg"width="242" height="182">
+            <p>________________________________________________________________________</p>
+            <li>The RGB Concept</li>
+            <p>RGB (red, green and blue) refers to a system representing the colors used on a digital display screen. Red, green and blue can be combined in various proportions to obtain any color in the visible spectrum. They each have a value of 0-255, as programmers we input the value of the R,G, and B to get a specific color</p>
+            <img src="img/rgb.PNG"width="200" height="200">
+
+        </ul>
+    </div>
+    </section>
+    
+    <section id="Sensors">
+    <div class="component">
+        <h2>Sensors</h2>
+        <p>Sensors allow robots to perceive their environment. They gather data and help in decision-making. Common sensors include:</p>
+        <ul>
+            <li>Ultrasonic Sensors</li>
+            <p>The ultrasonic sensor is used to detect distance between the nearest object and the robot. It's functions are exactly like bats, it shoots out an ultrasonic sound wave and waits for it to bounce back. It then calculates the distance based on how long it took for the wave to come back. It also detects the pressence of an object in fronnt of it depending on whether the wave bounces back.</p>
+            <img src="img/ultrasonic.jpg"width="160" height="160">
+            <p>________________________________________________________________________</p>
+            <li>Infrared Sensors</li>
+            <p>The infrared sensors function just like ultrasonic sensors, but instead of a sound wave, it lets out infrared light to detect whether an object is in front of the sensor.</p>
+            <img src="img/infrared.jpg"width="160" height="160">
+            <p>________________________________________________________________________</p>
+            <li>Temperature Sensors</li>
+            <p>Like the name, it is used to measure the temperature in front of the sensor and outputs it back into the computer, there really isn't much to it.</p>
+            <img src="img/temp.jpg"width="160" height="160">
+            <p>________________________________________________________________________</p>
+            <li>Gyroscopic Sensor</li>
+            <p>The "gyro" sensor measures and outputs the rotation of the robot. It goes 0 to 360 degrees clockwise and 0 to -360 when the robot rotates counter clockwise.</p>
+            <img src="img/gyro.jpg"width="160" height="160">
+            <p>________________________________________________________________________</p>
+            <li>Touch Sensor
+                <p>The touch sensor has a sensor plate component, which detects a finger or if the robot is physically touching another object. That is why the touch sensor is usually placed at the top or an edge of the robot.</p>
+            <img src="img/touch.jpg"width="160" height="160">
+            <img src="img/touch1.jpg"width="300" height="160">
+
+            <p>________________________________________________________________________</p>
+        </ul>
+    </div>
+    </section>
+    <section id="microcomps">
+    <div class="component">
+        <h2>Microcompters</h2>
+        <p>Sensors allow robots to perceive their environment. They gather data and help in decision-making. Common sensors include:</p>
+        <ul>
+            <li>Arduino</li>
+            <p>The Arduino microcomputer has plugs and pins that turn inputs into outputs with the code in the Arduino IDE software. There is no specific function for the Arduino, it is the brain of the robot.</p>
+            <img src="img/uno.jpg"width="180" height="152">
+            <p>The </p>
+            <p>________________________________________________________________________</p>
+           
+            <li>Raspberry Pi</li>
+            <p>The Raspberry Pi is made by the famous robotics company, Adafruit. It has input and output pins that are able to connect with components. The sky is the limit when it comes to what it does according to your own imagination.</p>
+            <img src="img/pi.jpg"width="200" height="140">
+            <p>________________________________________________________________________</p>
+           
+            <li>Micro Bit</li>
+            <p>This micro computer has a 4x4 light panel as the output. For programming, there is a page called Microbit MakeCode. It is simply block coding and easy to use.</p>
+            <img src="img/bit.jpg"width="250" height="200">
+            <p>________________________________________________________________________</p>
+           
+        </ul>
+    </div>
+    </section>
+    <section id="sound">
+    <div class="component">
+        <h2>Sound Outputs</h2>
+        <p>Sound outputs allow the robots to interact out of the visual circle. They are usually a result to conditions. Common sound outputting devices include:</p>
+        <ul>
+            <li>Buzzers</li>
+            <p>The buzzer makes a sound as an output device when connecter to the computer.</p>
+            <img src="img/buzz.jpg"width="160" height="160">
+            <p>________________________________________________________________________</p>
+          
+            <li>Speakers</li>
+            <p>The speaker allows the program to edit and personalize the sound that comes out. This works as a normal speaker as it has an input and a voltage wire.</p>
+            <img src="img/speaker.jpg"width="160" height="160">
+            <p>________________________________________________________________________</p>
+          
+        </ul>
+    </div>
+    </section>
+    <section id="project">
+    <div class="component">
+        <h2>Projects</h2>
+        <p>Here are some simple projects and components that can get anyone started:</p>
+        <ul>
+            <li>Drink Dispenser</li>
+            <p3>- Ultrasonic sensor to detect cups and drink level, water pump to aquire drinks from the source.</p>
+            <li>Security Code System</li>
+            <p3>- Keypads, Key card scanner, LEDs, servo motor as triggers for a lock.</p>
+            <li>Traffic Lights</li>
+            <p3>- Single light LEDs.</p>
+            <li>Ball Vacuum</li>
+            <p3>- Servo motors as robot arms, Ultrasonic sensors, DC motors and a gyro sensor if you want it to be automatic</p>
+            <li>Dish Soap Presser</li>
+            <p3>- Servo motor that presses the top of a bottle, Ultrasonic, lights to signal the presence of soap.</p>
+            <li>Rain brush</li>
+            <p3>- Servo motor, humidity sensor or water sensor that has two active wires.</p>
+            <li>Mini RC Car</li>
+            <p3>- DC motors, LEDs, Ultrasonic sensor.</p>
+            <li>Humidity Detecter</li>
+            <p3>- Humidity sensor, LED lights or buzzer for the output.</p>
+            <li>Digital Thermometer</li>
+            <p3>- LEDs or screens to show the temperature, temperature sensor, and </p>
+            <p>Have a project idea? Contact us to put it up here as inspo!</p>
+        </ul>
+    </div>
+    </section>
+    <section id="search">
+    <div class ="container">
+        <h2>The Search Engine</h2>
+        <p>Ask your remaining curiosities below (-,-)</p>
+
+        <form action="https://www.google.com/search" method="get" class="search-bar">
+            <input type="text" placeholder="Questions?" name="q">
+            <button type="submit"><img src = img/search.png width="20" height = "20"></button>
+        </form>
+    </div>
+    </section>
+    <section id="contact">
+        <div class ="container">
+            <h2>Contact us</h2>
+            <p>Email: robosensei248@gmail.com</p>
+            <p>Number: (248)-946-7284</p>
+        </div>
+        </section>
+
+
+
+
+    <footer>
+        <p>&copy; 2024 The Robosensei. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
